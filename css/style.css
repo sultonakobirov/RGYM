@@ -4,16 +4,20 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+body{
+  background-color: #000000;
+}
 
 .header {
   background-image: url(..//img/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 1000px;
   width: 100%;
   margin: 0 auto;
   color: white;
   position: relative;
+  max-width: 2200px;
 }
 
 .red {
@@ -30,6 +34,7 @@
   width: 100%;
   height: 80px;
   z-index: 2;
+  max-width: 2200px;
 }
 
 .left-nav{
@@ -436,14 +441,16 @@ div.next .next-text {
   background-image: url(..//img/bg-subscribe.jpg);
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 1080px;
   position: relative;
   display: flex;
+  max-width: 2200px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 40px;
   text-align: center;
+  margin: 0 auto;
 }
 .subscribe-text{
   opacity: 0.75;
@@ -498,6 +505,8 @@ div.next .next-text {
   background-color: #000000;
   color: #ffffff;
   padding: 100px 0 200px;
+  max-width: 2200px;
+  margin: 0 auto;
 }
 .footer-copyright-text {
   text-align: center;
